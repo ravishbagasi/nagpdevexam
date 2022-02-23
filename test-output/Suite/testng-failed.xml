@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="amazon_nagp_automation.listener.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Amazon NAGP Smoke Suite(failed)">
+    <groups>
+      <run>
+        <include name="cart"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="amazon_nagp_automation.testclass.TestCases">
+        <methods>
+          <include name="verifyNewReleases"/>
+          <include name="verifyAmazonPrime"/>
+        </methods>
+      </class> <!-- amazon_nagp_automation.testclass.TestCases -->
+    </classes>
+  </test> <!-- Amazon NAGP Smoke Suite(failed) -->
+</suite> <!-- Failed suite [Suite] -->

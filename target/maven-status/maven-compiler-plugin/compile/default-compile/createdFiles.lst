@@ -1,0 +1,14 @@
+amazon_nagp_automation\pages\LoginPage.class
+amazon_nagp_automation\pages\DeleteAndReAddItemPage.class
+amazon_nagp_automation\pages\SelectYourAddressPage.class
+amazon_nagp_automation\pages\AddToCartPage.class
+amazon_nagp_automation\pages\ChangeLanguagePage.class
+amazon_nagp_automation\testclass\SmokeTest.class
+amazon_nagp_automation\utility\WaitInterval.class
+amazon_nagp_automation\pages\AmazonPrimePage.class
+amazon_nagp_automation\utility\ExtentReport.class
+amazon_nagp_automation\testclass\BaseClass.class
+amazon_nagp_automation\utility\Log4j2.class
+amazon_nagp_automation\utility\Utility.class
+amazon_nagp_automation\pages\NewReleasesPage.class
+amazon_nagp_automation\pages\SearchBookPage.class

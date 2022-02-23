@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="111.348" tests="8" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="D:\OM Workspace\amazon_nagp_selenium_automation\drivers\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\OM Workspace\amazon_nagp_selenium_automation\target\test-classes;D:\OM Workspace\amazon_nagp_selenium_automation\target\classes;C:\Users\ravishbagasi\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\ravishbagasi\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\ravishbagasi\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\ravishbagasi\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\ravishbagasi\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\ravishbagasi\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\ravishbagasi\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\ravishbagasi\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\ravishbagasi\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\ravishbagasi\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\ravishbagasi\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\ravishbagasi\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ravishbagasi\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\ravishbagasi\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\ravishbagasi\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\ravishbagasi\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\ravishbagasi\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\ravishbagasi\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\ravishbagasi\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\ravishbagasi\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\ravishbagasi\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\ravishbagasi\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\ravishbagasi\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\ravishbagasi\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\ravishbagasi\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\ravishbagasi\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\ravishbagasi\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ravishbagasi\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\ravishbagasi\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\ravishbagasi\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\ravishbagasi\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\ravishbagasi\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\ravishbagasi\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\ravishbagasi\.m2\repository\com\aventstack\extentreports\4.0.0\extentreports-4.0.0.jar;C:\Users\ravishbagasi\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\ravishbagasi\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\ravishbagasi\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\ravishbagasi\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\ravishbagasi\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\ravishbagasi\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\ravishbagasi\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ravishbagasi\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\ravishbagasi\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\ravishbagasi\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\ravishbagasi\AppData\Local\Temp\surefire4337145011669507643\surefirebooter8760238851992336488.jar C:\Users\ravishbagasi\AppData\Local\Temp\surefire4337145011669507643 2021-05-16T21-19-13_361-jvmRun1 surefire6611784994363747394tmp surefire_02432007613813612887tmp"/>
+    <property name="testngFile" value="TestNG.xml"/>
+    <property name="surefire.test.class.path" value="D:\OM Workspace\amazon_nagp_selenium_automation\target\test-classes;D:\OM Workspace\amazon_nagp_selenium_automation\target\classes;C:\Users\ravishbagasi\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\ravishbagasi\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\ravishbagasi\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\ravishbagasi\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\ravishbagasi\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\ravishbagasi\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\ravishbagasi\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\ravishbagasi\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\ravishbagasi\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\ravishbagasi\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\ravishbagasi\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\ravishbagasi\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ravishbagasi\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\ravishbagasi\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\ravishbagasi\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\ravishbagasi\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\ravishbagasi\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\ravishbagasi\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\ravishbagasi\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\ravishbagasi\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\ravishbagasi\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\ravishbagasi\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\ravishbagasi\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\ravishbagasi\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\ravishbagasi\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\ravishbagasi\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\ravishbagasi\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ravishbagasi\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\ravishbagasi\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\ravishbagasi\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\ravishbagasi\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\ravishbagasi\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\ravishbagasi\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\ravishbagasi\.m2\repository\com\aventstack\extentreports\4.0.0\extentreports-4.0.0.jar;C:\Users\ravishbagasi\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\ravishbagasi\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\ravishbagasi\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\ravishbagasi\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\ravishbagasi\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\ravishbagasi\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\ravishbagasi\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ravishbagasi\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\ravishbagasi\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\ravishbagasi\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ravishbagasi"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_221\jre"/>
+    <property name="basedir" value="D:\OM Workspace\amazon_nagp_selenium_automation"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\ravishbagasi\AppData\Local\Temp\surefire4337145011669507643\surefirebooter8760238851992336488.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_221\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_221-b11"/>
+    <property name="user.name" value="ravishbagasi"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\ravishbagasi\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\RAVISH~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_221"/>
+    <property name="user.dir" value="D:\OM Workspace\amazon_nagp_selenium_automation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.6.3\bin;%JAVA_HOME%\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\dotnet\;C:\Users\ravishbagasi\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.221-b11"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="verifyAddToCart" classname="amazon_nagp_automation.testclass.SmokeTest" time="16.824">
+    <system-out><![CDATA[Current test results Folder has cleaned
+chrome
+[INFO ] 2021-05-16 21:19:20.954 [TestNG-test=Chrome Test-1] AddToCartPage - Adding Item in the cart
+[INFO ] 2021-05-16 21:19:21.006 [TestNG-test=Chrome Test-1] SearchBookPage - select Books from the list of items
+[INFO ] 2021-05-16 21:19:21.189 [TestNG-test=Chrome Test-1] SearchBookPage - Enter the book name in the search box :Java
+[INFO ] 2021-05-16 21:19:23.065 [TestNG-test=Chrome Test-1] SearchBookPage - Search button clicked
+[INFO ] 2021-05-16 21:19:23.129 [TestNG-test=Chrome Test-1] SearchBookPage - Item List page verified
+[INFO ] 2021-05-16 21:19:23.129 [TestNG-test=Chrome Test-1] AddToCartPage - Click and Open the Item
+[INFO ] 2021-05-16 21:19:23.329 [TestNG-test=Chrome Test-1] AddToCartPage - Switch to Item page
+[INFO ] 2021-05-16 21:19:28.742 [TestNG-test=Chrome Test-1] AddToCartPage - Add To Cart button verified and clicked
+[INFO ] 2021-05-16 21:19:28.851 [TestNG-test=Chrome Test-1] AddToCartPage - Item added into cart successfully
+[INFO ] 2021-05-16 21:19:29.971 [TestNG-test=Chrome Test-1] AddToCartPage - Proceed to Buy button verified and clicked
+[INFO ] 2021-05-16 21:19:29.974 [TestNG-test=Chrome Test-1] LoginPage - enter the email: abcNAGP@gmail.com
+[INFO ] 2021-05-16 21:19:31.344 [TestNG-test=Chrome Test-1] LoginPage - Click Continue button
+[INFO ] 2021-05-16 21:19:31.400 [TestNG-test=Chrome Test-1] LoginPage - Invalid login message verified successfully
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 37904
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1621180156.910][WARNING]: This version of ChromeDriver has not been tested with Chrome version 90.
+May 16, 2021 9:19:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyAmazonPrime" classname="amazon_nagp_automation.testclass.SmokeTest" time="8.684">
+    <system-out><![CDATA[chrome
+[INFO ] 2021-05-16 21:19:37.211 [TestNG-test=Chrome Test-1] AmazonPrimePage - Amazon Prime link verified
+[INFO ] 2021-05-16 21:19:37.376 [TestNG-test=Chrome Test-1] AmazonPrimePage - Mouseover on the Prime link
+[INFO ] 2021-05-16 21:19:39.252 [TestNG-test=Chrome Test-1] AmazonPrimePage - Amazon Prime Page opened
+[INFO ] 2021-05-16 21:19:40.063 [TestNG-test=Chrome Test-1] AmazonPrimePage - Verified Amazon Prime join
+[INFO ] 2021-05-16 21:19:40.063 [TestNG-test=Chrome Test-1] LoginPage - enter the email: abcNAGP@gmail.com
+[INFO ] 2021-05-16 21:19:40.862 [TestNG-test=Chrome Test-1] LoginPage - Click Continue button
+[INFO ] 2021-05-16 21:19:40.904 [TestNG-test=Chrome Test-1] LoginPage - Invalid login message verified successfully
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 19938
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1621180173.421][WARNING]: This version of ChromeDriver has not been tested with Chrome version 90.
+May 16, 2021 9:19:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyChangeLanguage" classname="amazon_nagp_automation.testclass.SmokeTest" time="10.369">
+    <system-out><![CDATA[chrome
+[INFO ] 2021-05-16 21:19:46.616 [TestNG-test=Chrome Test-1] ChangeLanguagePage - Verified language change country flag icon
+[INFO ] 2021-05-16 21:19:46.772 [TestNG-test=Chrome Test-1] ChangeLanguagePage - Mouseover on the country flag icon
+[INFO ] 2021-05-16 21:19:47.622 [TestNG-test=Chrome Test-1] ChangeLanguagePage - country flag icon clicked
+[INFO ] 2021-05-16 21:19:47.675 [TestNG-test=Chrome Test-1] ChangeLanguagePage - Verified language change page
+[INFO ] 2021-05-16 21:19:47.754 [TestNG-test=Chrome Test-1] ChangeLanguagePage - Desired language radio button clicked
+[INFO ] 2021-05-16 21:19:49.689 [TestNG-test=Chrome Test-1] ChangeLanguagePage - Save button clicked
+[INFO ] 2021-05-16 21:19:49.740 [TestNG-test=Chrome Test-1] ChangeLanguagePage - Verified home page
+[INFO ] 2021-05-16 21:19:49.904 [TestNG-test=Chrome Test-1] ChangeLanguagePage - Mouseover on the country flag icon
+[INFO ] 2021-05-16 21:19:51.998 [TestNG-test=Chrome Test-1] ChangeLanguagePage - Desired language has selected successfully
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 39609
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1621180182.816][WARNING]: This version of ChromeDriver has not been tested with Chrome version 90.
+May 16, 2021 9:19:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyDeleteAndReAddOrder" classname="amazon_nagp_automation.testclass.SmokeTest" time="19.735">
+    <system-out><![CDATA[chrome
+[INFO ] 2021-05-16 21:19:58.090 [TestNG-test=Chrome Test-1] AddToCartPage - Adding Item in the cart
+[INFO ] 2021-05-16 21:19:58.150 [TestNG-test=Chrome Test-1] SearchBookPage - select Books from the list of items
+[INFO ] 2021-05-16 21:19:58.281 [TestNG-test=Chrome Test-1] SearchBookPage - Enter the book name in the search box :Java
+[INFO ] 2021-05-16 21:20:00.045 [TestNG-test=Chrome Test-1] SearchBookPage - Search button clicked
+[INFO ] 2021-05-16 21:20:00.110 [TestNG-test=Chrome Test-1] SearchBookPage - Item List page verified
+[INFO ] 2021-05-16 21:20:00.110 [TestNG-test=Chrome Test-1] AddToCartPage - Click and Open the Item
+[INFO ] 2021-05-16 21:20:00.311 [TestNG-test=Chrome Test-1] AddToCartPage - Switch to Item page
+[INFO ] 2021-05-16 21:20:05.094 [TestNG-test=Chrome Test-1] AddToCartPage - Add To Cart button verified and clicked
+[INFO ] 2021-05-16 21:20:05.214 [TestNG-test=Chrome Test-1] AddToCartPage - Item added into cart successfully
+[INFO ] 2021-05-16 21:20:06.449 [TestNG-test=Chrome Test-1] DeleteAndReAddItemPage - Open the cart page
+[INFO ] 2021-05-16 21:20:06.521 [TestNG-test=Chrome Test-1] DeleteAndReAddItemPage - Cart page opened successfully
+[INFO ] 2021-05-16 21:20:06.641 [TestNG-test=Chrome Test-1] DeleteAndReAddItemPage - Delete item button clicked
+[INFO ] 2021-05-16 21:20:07.232 [TestNG-test=Chrome Test-1] DeleteAndReAddItemPage - verify cart is empty or not after deleting the item
+[INFO ] 2021-05-16 21:20:08.994 [TestNG-test=Chrome Test-1] DeleteAndReAddItemPage - Scroll to the Re-Order button
+[INFO ] 2021-05-16 21:20:11.382 [TestNG-test=Chrome Test-1] DeleteAndReAddItemPage - Re-Order button clicked
+[INFO ] 2021-05-16 21:20:12.408 [TestNG-test=Chrome Test-1] AddToCartPage - Add To Cart button verified and clicked
+[INFO ] 2021-05-16 21:20:12.489 [TestNG-test=Chrome Test-1] AddToCartPage - Item added into cart successfully
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 16307
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1621180194.031][WARNING]: This version of ChromeDriver has not been tested with Chrome version 90.
+May 16, 2021 9:19:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyInvalidLogin" classname="amazon_nagp_automation.testclass.SmokeTest" time="6.378">
+    <system-out><![CDATA[chrome
+[INFO ] 2021-05-16 21:20:18.981 [TestNG-test=Chrome Test-1] LoginPage - Verified and clicked the Sign In button
+[INFO ] 2021-05-16 21:20:19.018 [TestNG-test=Chrome Test-1] LoginPage - Sign In page opened successfully
+[INFO ] 2021-05-16 21:20:19.018 [TestNG-test=Chrome Test-1] LoginPage - enter the email: abcNAGP@gmail.com
+[INFO ] 2021-05-16 21:20:19.716 [TestNG-test=Chrome Test-1] LoginPage - Click Continue button
+[INFO ] 2021-05-16 21:20:19.750 [TestNG-test=Chrome Test-1] LoginPage - Invalid login message verified successfully
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 33512
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1621180214.644][WARNING]: This version of ChromeDriver has not been tested with Chrome version 90.
+May 16, 2021 9:20:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyNewReleases" classname="amazon_nagp_automation.testclass.SmokeTest" time="21.701">
+    <system-out><![CDATA[chrome
+[INFO ] 2021-05-16 21:20:25.232 [TestNG-test=Chrome Test-1] NewReleasesPage - Opening the New Release Page
+[INFO ] 2021-05-16 21:20:25.288 [TestNG-test=Chrome Test-1] NewReleasesPage - Clicking the All Dropdown
+[INFO ] 2021-05-16 21:20:27.189 [TestNG-test=Chrome Test-1] NewReleasesPage - Clicking the New Releases link
+[INFO ] 2021-05-16 21:20:28.364 [TestNG-test=Chrome Test-1] NewReleasesPage - Fetch the New Releases Page URL
+[INFO ] 2021-05-16 21:20:28.411 [TestNG-test=Chrome Test-1] NewReleasesPage - The total no. of items present in New Releases Page is : 3
+[INFO ] 2021-05-16 21:20:28.411 [TestNG-test=Chrome Test-1] NewReleasesPage - Add item in add to cart
+[INFO ] 2021-05-16 21:20:35.199 [TestNG-test=Chrome Test-1] AddToCartPage - Add To Cart button verified and clicked
+[INFO ] 2021-05-16 21:20:35.252 [TestNG-test=Chrome Test-1] AddToCartPage - Item added into cart successfully
+[INFO ] 2021-05-16 21:20:35.252 [TestNG-test=Chrome Test-1] NewReleasesPage - Navigate back to the New Release Page
+[INFO ] 2021-05-16 21:20:36.013 [TestNG-test=Chrome Test-1] NewReleasesPage - Add item in add to cart
+[INFO ] 2021-05-16 21:20:38.845 [TestNG-test=Chrome Test-1] NewReleasesPage - Add item in add to cart
+[INFO ] 2021-05-16 21:20:42.173 [TestNG-test=Chrome Test-1] NewReleasesPage - All the items of New Releases Page are added into cart
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 45730
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1621180221.667][WARNING]: This version of ChromeDriver has not been tested with Chrome version 90.
+May 16, 2021 9:20:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifySearch" classname="amazon_nagp_automation.testclass.SmokeTest" time="8.539">
+    <system-out><![CDATA[chrome
+[INFO ] 2021-05-16 21:20:48.968 [TestNG-test=Chrome Test-1] SearchBookPage - select Books from the list of items
+[INFO ] 2021-05-16 21:20:49.119 [TestNG-test=Chrome Test-1] SearchBookPage - Enter the book name in the search box :Java
+[INFO ] 2021-05-16 21:20:51.140 [TestNG-test=Chrome Test-1] SearchBookPage - Search button clicked
+[INFO ] 2021-05-16 21:20:51.208 [TestNG-test=Chrome Test-1] SearchBookPage - Item List page verified
+[INFO ] 2021-05-16 21:20:51.208 [TestNG-test=Chrome Test-1] SearchBookPage - fetch list of all the items visible on the page
+[INFO ] 2021-05-16 21:20:51.236 [TestNG-test=Chrome Test-1] SearchBookPage - verify price tag for the items
+[INFO ] 2021-05-16 21:20:51.656 [TestNG-test=Chrome Test-1] SearchBookPage - verifed price tag for all the items
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 43644
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1621180244.341][WARNING]: This version of ChromeDriver has not been tested with Chrome version 90.
+May 16, 2021 9:20:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifySelectYourAddress" classname="amazon_nagp_automation.testclass.SmokeTest" time="11.65">
+    <system-out><![CDATA[chrome
+[INFO ] 2021-05-16 21:20:57.949 [TestNG-test=Chrome Test-1] SelectYourAddressPage - Verified at clicked the address link
+[INFO ] 2021-05-16 21:20:57.983 [TestNG-test=Chrome Test-1] SelectYourAddressPage - Switched to the new window
+[INFO ] 2021-05-16 21:21:01.255 [TestNG-test=Chrome Test-1] SelectYourAddressPage - verified the address page
+[INFO ] 2021-05-16 21:21:01.435 [TestNG-test=Chrome Test-1] SelectYourAddressPage - Invalid Pincode entered :111111 and clicked the apply button
+[INFO ] 2021-05-16 21:21:02.028 [TestNG-test=Chrome Test-1] SelectYourAddressPage - verified the invalid Pincode error message
+[INFO ] 2021-05-16 21:21:02.218 [TestNG-test=Chrome Test-1] SelectYourAddressPage - Valid Pincode entered :110023 and clicked the apply button
+[INFO ] 2021-05-16 21:21:04.343 [TestNG-test=Chrome Test-1] SelectYourAddressPage - Switch back to the home page
+[INFO ] 2021-05-16 21:21:04.380 [TestNG-test=Chrome Test-1] SelectYourAddressPage - Address has been selected
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 30290
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1621180253.913][WARNING]: This version of ChromeDriver has not been tested with Chrome version 90.
+May 16, 2021 9:20:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

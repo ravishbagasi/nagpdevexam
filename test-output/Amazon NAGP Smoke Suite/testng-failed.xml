@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Amazon NAGP Smoke Suite]" parallel="methods">
+  <parameter name="browser" value="Chrome"/>
+  <test name="Chrome Test(failed)" parallel="methods">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="amazon_nagp_automation.testclass.SmokeTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUpReport"/>
+          <include name="verifySelectYourAddress"/>
+        </methods>
+      </class> <!-- amazon_nagp_automation.testclass.SmokeTest -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
+</suite> <!-- Failed suite [Amazon NAGP Smoke Suite] -->

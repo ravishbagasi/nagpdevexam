@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Amazon NAGP Smoke Suite" duration-ms="110563" started-at="2021-05-16T21:19:14 IST" finished-at="2021-05-16T21:21:05 IST">
+    <groups>
+    </groups>
+    <test name="Chrome Test" duration-ms="110563" started-at="2021-05-16T21:19:14 IST" finished-at="2021-05-16T21:21:05 IST">
+      <class name="amazon_nagp_automation.testclass.SmokeTest">
+        <test-method status="PASS" signature="setUpReport()[pri:0, instance:amazon_nagp_automation.testclass.SmokeTest@2ac273d3]" name="setUpReport" is-config="true" duration-ms="71" started-at="2021-05-16T21:19:14 IST" finished-at="2021-05-16T21:19:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpReport -->
+        <test-method status="PASS" signature="verifyAddToCart()[pri:0, instance:amazon_nagp_automation.testclass.SmokeTest@2ac273d3]" name="verifyAddToCart" duration-ms="16692" started-at="2021-05-16T21:19:14 IST" description="Verify Place Order" finished-at="2021-05-16T21:19:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddToCart -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:amazon_nagp_automation.testclass.SmokeTest@2ac273d3]" name="tearDown" is-config="true" duration-ms="925" started-at="2021-05-16T21:19:31 IST" finished-at="2021-05-16T21:19:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:amazon_nagp_automation.testclass.SmokeTest@2ac273d3]" name="getResult" is-config="true" duration-ms="3" started-at="2021-05-16T21:19:32 IST" finished-at="2021-05-16T21:19:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAddToCart status=SUCCESS method=SmokeTest.verifyAddToCart()[pri:0, instance:amazon_nagp_automation.testclass.SmokeTest@2ac273d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="verifyAmazonPrime()[pri:0, instance:amazon_nagp_automation.testclass.SmokeTest@2ac273d3]" name="verifyAmazonPrime" duration-ms="8570" started-at="2021-05-16T21:19:32 IST" description="Verify AmazonPrimePage" finished-at="2021-05-16T21:19:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAmazonPrime -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:amazon_nagp_automation.testclass.SmokeTest@2ac273d3]" name="tearDown" is-config="true" duration-ms="833" started-at="2021-05-16T21:19:40 IST" finished-at="2021-05-16T21:19:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:amazon_nagp_automation.testclass.SmokeTest@2ac273d3]" name="getResult" is-config="true" duration-ms="2" started-at="2021-05-16T21:19:41 IST" finished-at="2021-05-16T21:19:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAmazonPrime status=SUCCESS method=SmokeTest.verifyAmazonPrime()[pri:0, instance:amazon_nagp_automation.testclass.SmokeTest@2ac273d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="verifyChangeLanguage()[pri:0, instance:amazon_nagp_automation.testclass.SmokeTest@2ac273d3]" name="verifyChangeLanguage" duration-ms="10257" started-at="2021-05-16T21:19:41 IST" description="Verify ChangeLanguagePage" finished-at="2021-05-16T21:19:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyChangeLanguage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:amazon_nagp_automation.testclass.SmokeTest@2ac273d3]" name="tearDown" is-config="true" duration-ms="911" started-at="2021-05-16T21:19:51 IST" finished-at="2021-05-16T21:19:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyDeleteAndReAddOrder()[pri:0, instance:amazon_nagp_automation.testclass.SmokeTest@2ac273d3]" name="verifyDeleteAndReAddOrder" duration-ms="19580" started-at="2021-05-16T21:19:52 IST" description="Verify DeleteAndReAddItemPage" finished-at="2021-05-16T21:20:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDeleteAndReAddOrder -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:amazon_nagp_automation.testclass.SmokeTest@2ac273d3]" name="getResult" is-config="true" duration-ms="0" started-at="2021-05-16T21:19:52 IST" finished-at="2021-05-16T21:19:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyChangeLanguage status=SUCCESS method=SmokeTest.verifyChangeLanguage()[pri:0, instance:amazon_nagp_automation.testclass.SmokeTest@2ac273d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:amazon_nagp_automation.testclass.SmokeTest@2ac273d3]" name="tearDown" is-config="true" duration-ms="960" started-at="2021-05-16T21:20:12 IST" finished-at="2021-05-16T21:20:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:amazon_nagp_automation.testclass.SmokeTest@2ac273d3]" name="getResult" is-config="true" duration-ms="3" started-at="2021-05-16T21:20:13 IST" finished-at="2021-05-16T21:20:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyDeleteAndReAddOrder status=SUCCESS method=SmokeTest.verifyDeleteAndReAddOrder()[pri:0, instance:amazon_nagp_automation.testclass.SmokeTest@2ac273d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="verifyInvalidLogin()[pri:0, instance:amazon_nagp_automation.testclass.SmokeTest@2ac273d3]" name="verifyInvalidLogin" duration-ms="6296" started-at="2021-05-16T21:20:13 IST" description="Verify LoginPage" finished-at="2021-05-16T21:20:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:amazon_nagp_automation.testclass.SmokeTest@2ac273d3]" name="tearDown" is-config="true" duration-ms="836" started-at="2021-05-16T21:20:19 IST" finished-at="2021-05-16T21:20:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:amazon_nagp_automation.testclass.SmokeTest@2ac273d3]" name="getResult" is-config="true" duration-ms="2" started-at="2021-05-16T21:20:20 IST" finished-at="2021-05-16T21:20:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyInvalidLogin status=SUCCESS method=SmokeTest.verifyInvalidLogin()[pri:0, instance:amazon_nagp_automation.testclass.SmokeTest@2ac273d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="verifyNewReleases()[pri:0, instance:amazon_nagp_automation.testclass.SmokeTest@2ac273d3]" name="verifyNewReleases" duration-ms="21583" started-at="2021-05-16T21:20:20 IST" description="Verify NewReleasesPage" finished-at="2021-05-16T21:20:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewReleases -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:amazon_nagp_automation.testclass.SmokeTest@2ac273d3]" name="tearDown" is-config="true" duration-ms="1014" started-at="2021-05-16T21:20:42 IST" finished-at="2021-05-16T21:20:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:amazon_nagp_automation.testclass.SmokeTest@2ac273d3]" name="getResult" is-config="true" duration-ms="0" started-at="2021-05-16T21:20:43 IST" finished-at="2021-05-16T21:20:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyNewReleases status=SUCCESS method=SmokeTest.verifyNewReleases()[pri:0, instance:amazon_nagp_automation.testclass.SmokeTest@2ac273d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="verifySearch()[pri:0, instance:amazon_nagp_automation.testclass.SmokeTest@2ac273d3]" name="verifySearch" duration-ms="8468" started-at="2021-05-16T21:20:43 IST" description="Verify Search" finished-at="2021-05-16T21:20:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearch -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:amazon_nagp_automation.testclass.SmokeTest@2ac273d3]" name="tearDown" is-config="true" duration-ms="1178" started-at="2021-05-16T21:20:51 IST" finished-at="2021-05-16T21:20:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:amazon_nagp_automation.testclass.SmokeTest@2ac273d3]" name="getResult" is-config="true" duration-ms="2" started-at="2021-05-16T21:20:52 IST" finished-at="2021-05-16T21:20:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySearch status=SUCCESS method=SmokeTest.verifySearch()[pri:0, instance:amazon_nagp_automation.testclass.SmokeTest@2ac273d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="verifySelectYourAddress()[pri:0, instance:amazon_nagp_automation.testclass.SmokeTest@2ac273d3]" name="verifySelectYourAddress" duration-ms="11541" started-at="2021-05-16T21:20:52 IST" description="Verify Select Your Address" finished-at="2021-05-16T21:21:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySelectYourAddress -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:amazon_nagp_automation.testclass.SmokeTest@2ac273d3]" name="tearDown" is-config="true" duration-ms="866" started-at="2021-05-16T21:21:04 IST" finished-at="2021-05-16T21:21:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:amazon_nagp_automation.testclass.SmokeTest@2ac273d3]" name="getResult" is-config="true" duration-ms="0" started-at="2021-05-16T21:21:05 IST" finished-at="2021-05-16T21:21:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySelectYourAddress status=SUCCESS method=SmokeTest.verifySelectYourAddress()[pri:0, instance:amazon_nagp_automation.testclass.SmokeTest@2ac273d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:amazon_nagp_automation.testclass.SmokeTest@2ac273d3]" name="flushReport" is-config="true" duration-ms="193" started-at="2021-05-16T21:21:05 IST" finished-at="2021-05-16T21:21:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- amazon_nagp_automation.testclass.SmokeTest -->
+    </test> <!-- Chrome Test -->
+  </suite> <!-- Amazon NAGP Smoke Suite -->
+</testng-results>
