@@ -52,8 +52,8 @@
 				<version>3.0.0-M5</version>
 				<configuration>
 					<suiteXmlFiles>
-						<!-- <suiteXmlFile>TestNG.xml</suiteXmlFile> -->
-						<suiteXmlFile>${testngFile}</suiteXmlFile>
+						<suiteXmlFile>TestNG.xml</suiteXmlFile>
+						<!-- <suiteXmlFile>${testngFile}</suiteXmlFile> -->
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
